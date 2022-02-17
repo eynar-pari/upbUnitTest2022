@@ -1,0 +1,21 @@
+Se tiene un metodo donde devulve el mensaje de felicitacion a los estudiantes
+con una nota aprobatoria de 71 pts dependiendo los rangos devuelve un especifico mensaje
+
+datos entrada : nota   0 - 100
+
+0 - 70 --->    Esfuerzate mas tu nota es: NN
+71 - 80 --->   Bien, tu nota es: NN
+81 - 90 --->   Muy bien, tu nota es: NN
+91 - 100 --->  Excelente, tu nota es: NN
+   ***         La nota no es correcta, ingrese nuevamente el valor
+---------------------------------------------------------
+
+Nota
+obtenerMensaje(int nota)
+
+---------------------------------------------------------
+
+0  ----------- 70  >  -1  0  1      29 30 31    69  70  71
+71 ----------- 80  >  70  71  72    74 75 76    79   80 81
+81 ----------- 90  >  80  81  82    85  86 87   89  90 91
+91 ----------- 100 >  90  91  92    94   95 96  99 100 101
