@@ -1,10 +1,9 @@
 package ejemploMockStatic;
 
-import ejemploMock.MultiplicarServicio;
 
 public class CalculadoraMockStatic {
 
-    public CalculadoraMockStatic(MultiplicarServicio multiplicarServicio){
+    public CalculadoraMockStatic(){
     }
 
      public int getFactorial(int number){
@@ -14,5 +13,7 @@ public class CalculadoraMockStatic {
         }
         return fact;
     }
+
+
 
 }

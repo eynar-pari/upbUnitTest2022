@@ -1,0 +1,22 @@
+Se quiere implementar un metodo que retorna la cantidad maxima de prestamo
+que se puede realizar a una persona segun la clasificacion de su historial crediticio
+El historial crediticio esta clasificado en 3 categorias
+
+metodo crediticio
+A= ninguna deuda,
+B= retrasos de pago en sus actuales creditos
+C= esta en la lista negra (no paga sus cuotas de prestamos)
+
+metodo prestamo
+
+A -------->  200000
+B -------->  100000
+C -------->  0
+
+metodo (ci ){
+    crediticio() ------>  A , B, C
+
+    A -------->  maximo a prestar 200000
+    B -------->  maximo a prestar 100000
+    C -------->  no se puede prestar ningun monto
+}
